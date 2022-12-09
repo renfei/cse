@@ -60,8 +60,10 @@ docker build -t cse:2.1.5 .
 Docker 启动命令：
 
 ```shell
-docker run -d -p 30100:30100 -p 30103:30103 -p 30110:30110
+docker run -d -p 30100:30100 -p 30103:30103 -p 30110:30110 ghcr.io/renfei/cse:2.1.5
 ```
+
+> 其中最后的```ghcr.io/renfei/cse:2.1.5```根据您拉取的镜像仓库不同，名称不同，请根据您的实际情况修改。
 
 ### 控制台界面
 
